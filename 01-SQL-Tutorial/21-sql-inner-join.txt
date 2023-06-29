@@ -1,0 +1,13 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_join_inner.asp
+
+
+SQL INNER JOIN Keyword
+
+The INNER JOIN keyword selects records that have matching values in both tables.
+
+
+# INNER JOIN Syntax
+SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;

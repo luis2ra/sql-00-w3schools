@@ -1,0 +1,26 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_isnull.asp
+
+
+SQL IFNULL(), ISNULL(), COALESCE(), and NVL() Functions
+
+
+MySQL
+
+The MySQL IFNULL() function lets you return an alternative value if an expression is NULL,
+or we can use the COALESCE() function.
+
+
+SQL Server
+
+The SQL Server ISNULL() function lets you return an alternative value when an expression is NULL,
+or we can use the COALESCE() function.
+
+
+MS Access
+
+The MS Access IsNull() function returns TRUE (-1) if the expression is a null value, otherwise FALSE (0).
+
+
+Oracle
+
+The Oracle NVL() function achieves the same result, or we can use the COALESCE() function.

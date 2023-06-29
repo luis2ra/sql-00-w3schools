@@ -1,0 +1,23 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_between.asp
+
+
+SQL BETWEEN Operator
+
+
+# BETWEEN Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+
+BETWEEN Example
+
+NOT BETWEEN Example
+
+BETWEEN with IN Example
+
+BETWEEN Text Values Example
+
+NOT BETWEEN Text Values Example
+
+BETWEEN Dates Example

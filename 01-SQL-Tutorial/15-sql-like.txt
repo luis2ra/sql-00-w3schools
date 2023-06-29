@@ -1,0 +1,10 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_like.asp
+
+
+SQL LIKE Operator
+
+
+# LIKE Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;

@@ -1,0 +1,13 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_alias.asp
+
+
+SQL Aliases
+
+
+# Alias Column Syntax
+SELECT column_name AS alias_name
+FROM table_name;
+
+# Alias Table Syntax
+SELECT column_name(s)
+FROM table_name AS alias_name;

@@ -1,0 +1,16 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_min_max.asp
+
+
+SQL MIN() and MAX() Functions
+
+
+# MIN() Syntax
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+
+
+# MAX() Syntax
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;

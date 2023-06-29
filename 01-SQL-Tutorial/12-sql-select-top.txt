@@ -1,0 +1,20 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_top.asp
+
+
+SQL TOP, LIMIT, FETCH FIRST or ROWNUM Clause
+
+
+Note: Not all database systems support the SELECT TOP clause. 
+- MySQL supports the LIMIT clause to select a limited number of records.
+- Oracle uses FETCH FIRST n ROWS ONLY and ROWNUM.
+
+# SQL Server / MS Access Syntax:
+SELECT TOP number|percent column_name(s)
+FROM table_name
+WHERE condition;
+
+# SQL TOP PERCENT Example (for SQL Server/MS Access)
+SELECT TOP 50 PERCENT * FROM Customers;
+
+
+

@@ -1,0 +1,15 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_join_full.asp
+
+
+SQL FULL OUTER JOIN Keyword
+
+The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records.
+
+Tip: FULL OUTER JOIN and FULL JOIN are the same.
+
+# FULL OUTER JOIN Syntax
+SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name = table2.column_name
+WHERE condition;
