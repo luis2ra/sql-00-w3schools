@@ -1,0 +1,22 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_backup_db.asp
+
+
+The SQL BACKUP DATABASE Statement
+
+The BACKUP DATABASE statement is used in SQL Server to create a full back up of an existing SQL database.
+
+
+# Syntax
+BACKUP DATABASE databasename
+TO DISK = 'filepath';
+
+
+The SQL BACKUP WITH DIFFERENTIAL Statement
+
+A differential back up only backs up the parts of the database that have changed since the last full database backup.
+
+
+# Syntax
+BACKUP DATABASE databasename
+TO DISK = 'filepath'
+WITH DIFFERENTIAL;

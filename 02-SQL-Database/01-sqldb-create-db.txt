@@ -1,0 +1,10 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_create_db.asp
+
+
+The SQL CREATE DATABASE Statement
+
+The CREATE DATABASE statement is used to create a new SQL database.
+
+
+# Syntax
+CREATE DATABASE databasename;

@@ -1,0 +1,11 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_notnull.asp
+
+
+SQL NOT NULL Constraint
+
+By default, a column can hold NULL values.
+
+The NOT NULL constraint enforces a column to NOT accept NULL values.
+
+This enforces a field to always contain a value, which means that you cannot insert a new record, or '
+update a record without adding a value to this field.

@@ -1,0 +1,10 @@
+# @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_drop_db.asp
+
+
+The SQL DROP DATABASE Statement
+
+The DROP DATABASE statement is used to drop an existing SQL database.
+
+
+# Syntax
+DROP DATABASE databasename;
