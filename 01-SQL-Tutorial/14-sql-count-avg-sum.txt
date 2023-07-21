@@ -3,19 +3,29 @@
 
 SQL COUNT(), AVG() and SUM() Functions
 
-# COUNT() Syntax
-SELECT COUNT(column_name)
-FROM table_name
-WHERE condition;
 
+The COUNT() function returns the number of rows that matches a specified criterion.
+
+# COUNT() Syntax
+
+    SELECT COUNT(column_name)
+    FROM table_name
+    WHERE condition;
+
+
+The AVG() function returns the average value of a numeric column. 
 
 # AVG() Syntax
-SELECT AVG(column_name)
-FROM table_name
-WHERE condition;
 
+    SELECT AVG(column_name)
+    FROM table_name
+    WHERE condition;
+
+
+The SUM() function returns the total sum of a numeric column. 
 
 # SUM() Syntax
-SELECT SUM(column_name)
-FROM table_name
-WHERE condition;
+
+    SELECT SUM(column_name)
+    FROM table_name
+    WHERE condition;

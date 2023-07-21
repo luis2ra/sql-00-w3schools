@@ -10,15 +10,17 @@ The UNION operator is used to combine the result-set of two or more SELECT state
 
 
 # UNION Syntax
-SELECT column_name(s) FROM table1
-UNION
-SELECT column_name(s) FROM table2;
+
+    SELECT column_name(s) FROM table1
+    UNION
+    SELECT column_name(s) FROM table2;
 
 
 # UNION ALL Syntax
-SELECT column_name(s) FROM table1
-UNION ALL
-SELECT column_name(s) FROM table2;
+
+    SELECT column_name(s) FROM table1
+    UNION ALL
+    SELECT column_name(s) FROM table2;
 
 
 Note: The UNION operator selects only distinct values by default. To allow duplicate values, use UNION ALL.

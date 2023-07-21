@@ -9,7 +9,9 @@ The EXISTS operator returns TRUE if the subquery returns one or more records.
 
 
 # EXISTS Syntax
-SELECT column_name(s)
-FROM table_name
-WHERE EXISTS
-(SELECT column_name FROM table_name WHERE condition);
+
+    SELECT column_name(s)
+    FROM table_name
+    WHERE EXISTS
+    (SELECT column_name FROM table_name WHERE condition);
+

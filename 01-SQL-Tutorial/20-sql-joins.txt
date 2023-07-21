@@ -1,7 +1,7 @@
 # @author: https://github.com/luis2ra from https://www.w3schools.com/sql/sql_join.asp
 
 
-SQL Joins
+SQL Join
 
 A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 
